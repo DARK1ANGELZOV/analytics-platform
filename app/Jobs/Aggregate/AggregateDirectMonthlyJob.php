@@ -239,7 +239,7 @@ class AggregateDirectMonthlyJob implements ShouldQueue
     }
 
     /**
-     * Обновление месячных данных кампаний
+     * Обновление месячных данных кампани
      */
     private function updateCampaignsMonthlyData(MonthlyDirect $monthlyDirect, array $campaignsData): void
     {
